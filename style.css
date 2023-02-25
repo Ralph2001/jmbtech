@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:300,400,500,600,700,800,900&display=swap');
 
-@charset "utf-8";
+/* @charset "utf-8"; */
 /** 
 * 
 * -----------------------------------------------------------------------------
@@ -3811,6 +3811,7 @@ body .search-modal .close:hover {
   padding: 140px 10px 140px 10px;
   text-align: center;
 }
+
 .rs-breadcrumbs .breadcrumbs-inner .page-title {
   position: relative;
   z-index: 1;
@@ -3881,6 +3882,10 @@ body .search-modal .close:hover {
   background-size: cover;
   
 }
+.rs-breadcrumbs.contactimg{
+   background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(assets/images/breadcrumbs/contact.jpg) fixed center center;
+  background-size: cover;
+}
 .rs-breadcrumbs.img2 {
   background: url(assets/images/breadcrumbs/inr-2.jpg);
 }
@@ -3890,11 +3895,16 @@ body .search-modal .close:hover {
 
 }
 .rs-breadcrumbs.img4 {
-  background: url(assets/images/breadcrumbs/inr-4.jpg);
+
+   background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)),
+   url(assets/images/breadcrumbs/inr-4.jpg) fixed center center;
 }
 .rs-breadcrumbs.img5 {
-  background: url(assets/images/breadcrumbs/inr-5.jpg);
+
+   background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)),
+   url(assets/images/breadcrumbs/inr-5.jpg) fixed center center;
 }
+
 .rs-breadcrumbs.img6 {
   background: url(assets/images/breadcrumbs/inr-6.jpg);
 }
@@ -5204,6 +5214,8 @@ body .search-modal .close:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
 .rs-contact.contact-style1 .contact-section {
   padding: 120px 22px 120px 45px;
 }
@@ -7023,6 +7035,8 @@ body .search-modal .close:hover {
 /* ------------------------------------
 	19. Services Section CSS
 ---------------------------------------*/
+
+
 .rs-services.services-main-home .services-item .services-wrap {
   position: relative;
   overflow: hidden;
