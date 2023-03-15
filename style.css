@@ -2287,13 +2287,25 @@ blockquote p {
 }
 .full-width-header .rs-header .toolbar-area.topbar-style1 {
   padding: 0 20px;
-  background: #010D14;
+  background: #2a373d;
 }
 .full-width-header .rs-header .toolbar-area.topbar-style1 .toolbar-contact .rs-contact-info li {
   display: inline-block;
-  line-height: 50px;
-  font-size: 15px;
+  line-height: 40px;
+  font-size: 14px;
   color: #ffffff;
+}
+@media (max-width: 768px) {
+  .full-width-header .rs-header .toolbar-area.topbar-style1 .toolbar-contact .rs-contact-info li {
+    font-size: 12px;
+      line-height: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .full-width-header .rs-header .toolbar-area.topbar-style1 .toolbar-contact .rs-contact-info li {
+    font-size: 25px;
+  }
 }
 .full-width-header .rs-header .toolbar-area.topbar-style1 .toolbar-contact .rs-contact-info li:last-child {
   margin-right: 0;
@@ -7830,7 +7842,7 @@ body .search-modal .close:hover {
   padding: 30px 30px 55px 30px;
 }
 .rs-faq.faq-style1 .faq-images {
-  background-image: url(assets/images/choose/benefit/tabs-images.png.jpg);
+  background-image: url(assets/images/choose/benefit/jmbtech.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
