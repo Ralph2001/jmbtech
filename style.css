@@ -2309,6 +2309,7 @@ blockquote p {
 }
 .full-width-header .rs-header .toolbar-area.topbar-style1 .toolbar-contact .rs-contact-info li:last-child {
   margin-right: 0;
+  white-space: nowrap;
 }
 .full-width-header .rs-header .toolbar-area.topbar-style1 .toolbar-contact .rs-contact-info li i {
   color: #ffb703;
