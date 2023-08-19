@@ -576,7 +576,7 @@
         padding: 60px 30px 60px 50px;
     }
     .rs-breadcrumbs .breadcrumbs-inner {
-        padding: 120px 10px 120px 10px;
+        padding: 40px 10px 40px 10px;
     }
     .rs-my-account .title,
     .sec-title .title.title4.ser-style4,
@@ -1122,7 +1122,7 @@
         font-size: 30px;
     }
     .rs-breadcrumbs .breadcrumbs-inner {
-        padding: 100px 10px 100px 10px;
+        padding: 20px 10px 20px 10px;
     }
     .rs-slider.rs-slider-style2.rs-slider-style10 .container .content-part .sl-desc {
         font-size: 17px;
