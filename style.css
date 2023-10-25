@@ -2291,7 +2291,7 @@ blockquote p {
 }
 .full-width-header .rs-header .toolbar-area.topbar-style1 .toolbar-contact .rs-contact-info li {
   display: inline-block;
-  line-height: 40px;
+  line-height: 23px;
   font-size: 14px;
   color: #ffffff;
 }
@@ -2361,7 +2361,7 @@ blockquote p {
 }
 .full-width-header .rs-header .toolbar-area.topbar-style1 .toolbar-sl-share .clearfix li {
   display: inline-block;
-  line-height: 50px;
+  line-height: 23px;
   margin-right: 13px;
 }
 .full-width-header .rs-header .toolbar-area.topbar-style1 .toolbar-sl-share .clearfix li:last-child {
